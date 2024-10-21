@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ValidacionPaciente {
+/*public class ValidacionPaciente {
 
     // Paso 1. Inyectar un objeto de la clase modelo
     // Inyectar es igual a traer una clase y usarla dentro de otra
@@ -141,3 +141,4 @@ public class ValidacionPaciente {
 
 
 }
+*/
