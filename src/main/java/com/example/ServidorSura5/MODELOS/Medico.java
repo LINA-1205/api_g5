@@ -1,9 +1,8 @@
-package com.example.ServidorSura5.modelos;
+package com.example.ServidorSura5.MODELOS;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @Entity

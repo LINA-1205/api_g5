@@ -1,11 +1,5 @@
 package com.example.ServidorSura5.helpers;
 
-import com.example.ServidorSura5.modelos.Paciente;
-
-import java.time.LocalDate;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 /*public class ValidacionPaciente {
 
     // Paso 1. Inyectar un objeto de la clase modelo
