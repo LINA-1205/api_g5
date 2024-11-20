@@ -8,6 +8,8 @@ import com.example.ServidorSura5.REPOSITORIOS.IRepositorioPaciente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ServicioMedicamentos {
 
@@ -27,6 +29,12 @@ public class ServicioMedicamentos {
         }
     }
 
-
+    public List<Medicamento> buscarMedicamento() throws Exception {
+        try {
+            return iRepositorioMedicamento.findAll();
+        } catch (Exception error) {
+            throw new Exception(error.getMessage());
+        }
+    }
 }
 
