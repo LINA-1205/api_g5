@@ -23,7 +23,7 @@ public class Paciente {
     private String ips; //maximo 50 caracteres
     private String grupoIngreso; //SOLO SE ADMITE A, B O C en mayuscula
     private Boolean tienePoliza;
-    private LocalDate fehaAfiliacion; //no puede ser menor a 2010
+    private LocalDate fechaAfiliacion; //no puede ser menor a 2010
 
     //Creando una relacion con la clase Medico
     //Me relaciono con 1 medico
@@ -48,7 +48,7 @@ public class Paciente {
     public Paciente() {
     }
 
-    public Paciente(Long id, String nombres, LocalDate fechaNacimiento, String ciudad, String correo, String telefono, String ips, String grupoIngreso, Boolean tienePoliza, LocalDate fehaAfiliacion) {
+    public Paciente(Long id, String nombres, LocalDate fechaNacimiento, String ciudad, String correo, String telefono, String ips, String grupoIngreso, Boolean tienePoliza, LocalDate fechaAfiliacion) {
         this.id = id;
         this.nombres = nombres;
         this.fechaNacimiento = fechaNacimiento;
@@ -58,7 +58,7 @@ public class Paciente {
         this.ips = ips;
         this.grupoIngreso = grupoIngreso;
         this.tienePoliza = tienePoliza;
-        this.fehaAfiliacion = fehaAfiliacion;
+        this.fechaAfiliacion = fechaAfiliacion;
     }
 
     public Long getId() {
@@ -133,11 +133,11 @@ public class Paciente {
         this.tienePoliza = tienePoliza;
     }
 
-    public LocalDate getFehaAfiliacion() {
-        return fehaAfiliacion;
+    public LocalDate getFechaAfiliacion() {
+        return fechaAfiliacion;
     }
 
-    public void setFehaAfiliacion(LocalDate fehaAfiliacion) {
-        this.fehaAfiliacion = fehaAfiliacion;
+    public void setFechaAfiliacion(LocalDate fechaAfiliacion) {
+        this.fechaAfiliacion = fechaAfiliacion;
     }
 }
